@@ -2,7 +2,7 @@
 -- Name: citext; Type: EXTENSION; Schema: -; Owner: -
 --
 
-CREATE EXTENSION IF NOT EXISTS citext WITH SCHEMA public;
+CREATE EXTENSION IF NOT EXISTS citext;
 
 --
 -- Name: activity; Type: TABLE; Schema: public; Owner: -
