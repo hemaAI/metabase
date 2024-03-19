@@ -305,7 +305,7 @@ CREATE TABLE public.core_session (
 
 CREATE TABLE public.core_user (
     id integer NOT NULL,
-    email public.citext NOT NULL,
+    email ibm_extension.citext NOT NULL,
     first_name character varying(254),
     last_name character varying(254),
     password character varying(254),
