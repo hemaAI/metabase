@@ -10,6 +10,7 @@ target/*
 .shadow-cljs
 .github
 .vscode
+enterprise
 hooks/*
 test/*
 test_config/*
